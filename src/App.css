@@ -1,0 +1,57 @@
+.page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  line-height: 1.5;
+
+  span {
+    color: green;
+  }
+}
+
+button {
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid green;
+  padding: 20px 50px;
+  font-size: 20px;
+}
+
+.input-group {
+
+  .input {
+    margin-right: 35px;
+  }
+}
+
+.input {
+  display: inline-block;
+  margin-bottom: 30px;
+
+  span {
+    margin-right: 15px;
+  }
+
+  select {
+    font-size: 16px;
+  }
+}
